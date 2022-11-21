@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: o
+   
+}
+/* Header Part Start */
+.header_cont{
+    height: 30px;
+    background: blueviolet;
+    color: whitesmoke;
+    font-size: 14px;
+    border-bottom: 2px solid rgb(255, 0, 0);
+}
+
+.header-left{
+    line-height: 30px;
+}
+.header-right{
+    line-height: 30px;
+}
+
+.header-right p{
+    display: inline-block;
+    border-right: 1px solid wheat;
+    padding-right: 5px;
+    margin-right: 5px;
+}
+
+.header-right a{
+    color: antiquewhite;
+}
+
+/* Header Part end */
+
+/* Logo Part start */
+.logo{
+    height: 110px;
+    background: rgba(255, 0, 0, 0.293);
+}
+.logo-left{
+    line-height: 110px;
+    display: inline-block;
+}
+.logo-search{
+    padding-top: 46px;
+}
+.logo-search input{
+    width: 80%;
+    border-radius: 5px;
+    color: rgba(20, 18, 18, 0.8);
+    padding: 5px;
+}
+.logo-search button{
+    padding: 5px;
+    border-radius: 5px;
+}
+.logo-right{
+    padding-top: 30px;
+}
+
+.logo-1{
+    border-right: 1px solid rgba(244, 77, 77, 0.603);
+    padding-right: 5px;
+    margin-right: 5px;
+}
+/* Logo Part end */
