@@ -1,0 +1,145 @@
+/* Theme Name : Day-2
+
+Author: saiful_7i
+
+Description: Our default theme for 2020 is designed to take full advantage of the flexibility of the block editor. Organizations and businesses have the ability to create dynamic landing pages with endless layouts using the group and column blocks. The centered content column and fine-tuned typography also makes it perfect for traditional blogs. Complete editor styles give you a good idea of what your content will look like, even before you publish. You can give your site a personal touch by changing the background colors and the accent color in the Customizer. The colors of all elements on your site are automatically calculated based on the colors you pick, ensuring a high, accessible color contrast for your visitors.
+Tags: blog, one-column, custom-background, custom-colors, custom-logo, custom-menu, editor-style, featured-images, footer-widgets, full-width-template, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready, block-styles, wide-blocks, accessibility-ready
+Version: 1.3
+Requires at least: 5.0
+Tested up to: 5.4
+Requires PHP: 7.0
+
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+ */
+
+
+*{
+    margin: 0;
+    padding: o
+   
+}
+
+/* Header Part Start */
+.header_cont{
+    height: 30px;
+    background: blueviolet;
+    color: whitesmoke;
+    font-size: 14px;
+    border-bottom: 2px solid rgb(255, 0, 0);
+}
+
+.header-left{
+    line-height: 30px;
+}
+.header-right{
+    line-height: 30px;
+}
+
+.header-right p{
+    display: inline-block;
+    border-right: 1px solid wheat;
+    padding-right: 5px;
+    margin-right: 5px;
+}
+
+.header-right a{
+    color: antiquewhite;
+}
+
+/* Header Part end */
+
+/* Logo Part start */
+.logo{
+    height: 110px;
+    background: rgba(255, 0, 0, 0.293);
+}
+.logo-left{
+    line-height: 110px;
+    display: inline-block;
+}
+.logo-search{
+    padding-top: 46px;
+}
+.logo-search input{
+    width: 80%;
+    border-radius: 5px;
+    color: rgba(20, 18, 18, 0.8);
+    padding: 5px;
+}
+.logo-search button{
+    padding: 5px;
+    border-radius: 5px;
+}
+.logo-right{
+    padding-top: 30px;
+}
+
+.logo-1{
+    border-right: 1px solid rgba(244, 77, 77, 0.603);
+    padding-right: 5px;
+    margin-right: 5px;
+}
+/* Logo Part end */
+/* Main Part Start */
+.main-image img{
+    height: 400px;
+}
+
+.slider img{
+    height: 400px;
+}
+
+.siderbar-image img{
+    height: 70px;
+    margin-bottom: 10px;
+}
+
+/* Main Part End */
+
+/* Side Bar */
+.selector-1{
+    width: 80%;
+    background: #cccc;
+    padding: 6px;
+    border-radius: 8px;
+}
+
+.siderbar_img-b img{
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.bt-01{
+    background: #cccc;
+    padding: 6px;
+    border-radius: 5px;
+}
+
+.video-text-1{
+    padding: 5px;
+    background: green;
+    color: #ffff;
+    margin-top: 5px;
+
+
+}
+
+.mask{
+    padding: 5px;
+    background: green;
+    color: #ffff;
+    margin-top: 5px;
+
+
+}
+
+ul>li{
+    list-style: none;
+}
+
+.inform img{
+    height: 70px;
+    margin-bottom: 5px;
+}
