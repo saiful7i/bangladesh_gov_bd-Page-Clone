@@ -119,15 +119,19 @@
             <div class="slider">
                 <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
                 <div class="carousel-inner">
+                  <?php while (have_posts()) {
+                    the_post();}
+                  ?>
                   <div class="carousel-item active">
                     <img src="./images/Silder/Banner-1.jpg" class="d-block w-100" alt="...">
                   </div>
-                  <div class="carousel-item">
+
+                  <!-- <div class="carousel-item">
                     <img src="./images/Silder/Banner-2.jpg" class="d-block w-100" alt="...">
                   </div>
                   <div class="carousel-item">
                     <img src="./images/Silder/banner-renew-your-passport.png" class="d-block w-100" alt="">
-                  </div>
+                  </div> -->
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -211,13 +215,13 @@
             <!-- Initiative Part Start -->
             <h5 class="mt-3">উদ্যোগ</h5>
             <?php dynamic_sidebar('list'); ?> 
-            <ul>
+            <!-- <ul>
               <li><a href="">বাংলাদেশ সরকারের সপ্তম পঞ্চবার্ষিক পরিকল্পনা (২০১৬-২০২০) (১৩-০৬-২০১৬)</a></li>
               <li><a href="">বাংলাদেশে ঘূর্ণিঝড়ের জরুরি প্রস্তুতি পরিকল্পনা। (১১-০৪-২০১৫)</a></li>
               <li><a href="">বাংলাদেশ সরকারের ষষ্ঠ পঞ্চবার্ষিক পরিকল্পনা। (০৭-০৪-২০১৫)</a></li>
               <li><a href="">বাংলাদেশ সরকারের প্রেক্ষিত পরিকল্পনা (২০১০-২০২১)। (০৭-০৪-২০১৫)</a></li>
               <li><a href="">দূর্যোগ ব্যবস্থাপনা জন্য জাতীয় পরিকল্পনা ২০১০-২০১৫। (০৭-০৪-২০১৫)</a></li>
-            </ul>
+            </ul> -->
             
             <!-- Initiative Part End -->
 
@@ -359,5 +363,29 @@
 <!-- Footer Part E -->
 <?php wp_footer();?>
 <script src="./JS/bootstrap.bundle.min.js"></script>  
+<section class="cont pt-5 pb-5">
+  <div class="row">
+    <div class="col-sm-4">
+      <?php
+      $sum=0;
+      for($i=0;$i<=10;$i++){
+        $sum=$sum+$i;
+        echo '<h4>' . $sum . '</h4> <br>';
+        }
+      echo $sum;
+      ?>
+    </div>
+    <div class="col-sm-4">
+      <?php
+      $a = 0;
+      while($a<=18){
+        echo $a.'<br>';
+        $a++;
+
+      } 
+      ?>
+    </div>
+  </div>
+</section>
 </body>
 </html>
